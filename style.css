@@ -95,9 +95,19 @@ main {
 }
 
 .inputAndLabelWrapper {
+  position: relative;
   display: flex;
   flex-direction: column-reverse;
   margin-bottom: 1em;
+  height: 80px;
+}
+
+#passwordInputHelperText {
+  position: absolute;
+  top: 4.5rem;
+  color: rgb(212, 67, 106);
+  font-size: 0.8rem;
+  visibility: hidden;
 }
 
 .inputAndLabelWrapper input {
