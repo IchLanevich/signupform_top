@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Form TOP</title>
+  </head>
+  <body>
+    <main>
+      <section id="imageSection">
+        <div class="logo">ODIN</div>
+        <p id="bgImageCredit">
+          Photo by <a href="#">Halie West</a> on <a href="#">Unsplash</a>
+        </p>
+      </section>
+      <section id="formSection">
+        <p class="informationText">
+          This is not a real online service! You know you need something <br />
+          like this in your life to help you realize your deepest dreams. <br />
+          Sign up <i class="informationTextItalic">now</i> to get started.
+        </p>
+        <p class="informationText">
+          You <i class="informationTextItalic">know</i> you want to.
+        </p>
+        <form id="form">
+          <p class="formHeadline">Let's do this!</p>
+          <div id="bunchOfinput">
+            <div class="inputAndLabelWrapper">
+              <input id="firstNameInput" name="firstNameInput" type="text" />
+              <label class="inputLabel" for="firstNameInput">First Name</label>
+            </div>
+            <div class="inputAndLabelWrapper">
+              <input
+                id="lastNameInput"
+                name="lastNameInput"
+                type="text"
+              /><label for="lastNameInput">Last Name</label>
+            </div>
+            <div class="inputAndLabelWrapper">
+              <input id="emailInput" name="emailInput" type="email" /><label
+                for="emailInput"
+                >Email</label
+              >
+            </div>
+            <div class="inputAndLabelWrapper">
+              <input
+                id="phoneNumberInput"
+                name="phoneNumberInput"
+                type="tel"
+              /><label for="phoneNumberInput">Phone Number</label>
+            </div>
+            <div class="inputAndLabelWrapper">
+              <input
+                id="passwordInput"
+                name="passwordInput"
+                type="password"
+              /><label for="passwordInput">Password</label>
+            </div>
+            <div class="inputAndLabelWrapper">
+              <input
+                id="confirmPasswordInput"
+                name="confirmPasswordInput"
+                type="password"
+              />
+              <label for="confirmPasswordInput">Confirm Password</label>
+            </div>
+          </div>
+        </form>
+        <div class="btnWrapper">
+          <button id="createAccountBtn" type="submit">Create Account</button>
+        </div>
+        <p id="alreadyHaveAnAccountText">
+          Already have an account? <a href="#">Log in</a>
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
